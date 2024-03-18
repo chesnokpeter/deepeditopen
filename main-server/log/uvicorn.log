@@ -1,0 +1,53 @@
+2024-02-03 06:58:30,604 - uvicorn.error - INFO - Will watch for changes in these directories: ['C:\\Users\\User\\Desktop\\MainP\\deepedit']
+2024-02-03 06:58:30,604 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2024-02-03 06:58:30,605 - uvicorn.error - INFO - Started reloader process [9884] using WatchFiles
+2024-02-03 06:58:30,895 - asyncio - DEBUG - Using selector: SelectSelector
+2024-02-03 06:58:31,117 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\User\\Desktop\\MainP\\deepedit\\log\\uvicorn.log')}
+2024-02-03 06:58:31,494 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\User\\Desktop\\MainP\\deepedit\\log\\uvicorn.log')}
+2024-02-03 06:58:31,868 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\User\\Desktop\\MainP\\deepedit\\log\\uvicorn.log')}
+2024-02-03 06:58:32,257 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\User\\Desktop\\MainP\\deepedit\\log\\uvicorn.log')}
+2024-02-03 06:58:32,706 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\User\\Desktop\\MainP\\deepedit\\log\\uvicorn.log')}
+2024-02-03 06:58:33,084 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\User\\Desktop\\MainP\\deepedit\\log\\uvicorn.log')}
+2024-02-03 06:58:33,471 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\User\\Desktop\\MainP\\deepedit\\log\\uvicorn.log')}
+2024-02-03 06:58:33,847 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\User\\Desktop\\MainP\\deepedit\\log\\uvicorn.log')}
+2024-02-03 06:58:34,299 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\User\\Desktop\\MainP\\deepedit\\log\\uvicorn.log')}
+2024-02-03 06:58:34,688 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\User\\Desktop\\MainP\\deepedit\\log\\uvicorn.log')}
+2024-02-03 06:58:35,126 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\User\\Desktop\\MainP\\deepedit\\log\\uvicorn.log')}
+2024-02-03 06:58:35,516 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\User\\Desktop\\MainP\\deepedit\\log\\uvicorn.log')}
+2024-02-03 06:58:35,903 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\User\\Desktop\\MainP\\deepedit\\log\\uvicorn.log')}
+2024-02-03 06:58:36,293 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\User\\Desktop\\MainP\\deepedit\\log\\uvicorn.log')}
+2024-02-03 06:58:36,794 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\User\\Desktop\\MainP\\deepedit\\log\\uvicorn.log')}
+2024-02-03 06:58:37,169 - watchfiles.main - DEBUG - 1 change detected: {(<Change.modified: 2>, 'C:\\Users\\User\\Desktop\\MainP\\deepedit\\log\\uvicorn.log')}
+2024-02-03 06:58:37,558 - uvicorn.error - INFO - Stopping reloader process [9884]
+2024-02-03 06:59:20,722 - uvicorn.error - INFO - Will watch for changes in these directories: ['C:\\Users\\User\\Desktop\\MainP\\deepedit']
+2024-02-03 06:59:20,723 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2024-02-03 06:59:20,723 - uvicorn.error - INFO - Started reloader process [9880] using StatReload
+2024-02-03 06:59:20,927 - asyncio - DEBUG - Using selector: SelectSelector
+2024-02-03 06:59:21,994 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-02-03 06:59:21,996 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\User\\Desktop\\MainP\\deepedit\\venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-02-03 06:59:22,011 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-02-03 06:59:22,011 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\User\\Desktop\\MainP\\deepedit\\venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-02-03 06:59:22,025 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-02-03 06:59:22,025 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\User\\Desktop\\MainP\\deepedit\\venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-02-03 06:59:24,609 - uvicorn.error - INFO - Started server process [10072]
+2024-02-03 06:59:24,610 - uvicorn.error - INFO - Waiting for application startup.
+2024-02-03 06:59:24,611 - uvicorn.error - INFO - Application startup complete.
+2024-02-03 06:59:28,579 - uvicorn.access - INFO - 127.0.0.1:56359 - "GET / HTTP/1.1" 307
+2024-02-03 06:59:28,594 - uvicorn.access - INFO - 127.0.0.1:56359 - "GET /home HTTP/1.1" 200
+2024-02-03 06:59:28,750 - uvicorn.access - INFO - 127.0.0.1:56359 - "GET /loader.css HTTP/1.1" 200
+2024-02-03 06:59:28,751 - uvicorn.access - INFO - 127.0.0.1:56361 - "GET /home.js HTTP/1.1" 200
+2024-02-03 06:59:28,753 - uvicorn.access - INFO - 127.0.0.1:56360 - "GET /spinner.css HTTP/1.1" 200
+2024-02-03 06:59:28,754 - uvicorn.access - INFO - 127.0.0.1:56358 - "GET /home.css HTTP/1.1" 200
+2024-02-03 06:59:29,372 - uvicorn.access - INFO - 127.0.0.1:56360 - "GET /favicon.ico HTTP/1.1" 200
+2024-02-03 06:59:31,371 - uvicorn.access - INFO - 127.0.0.1:56358 - "POST /api/user HTTP/1.1" 422
+2024-02-03 06:59:31,380 - uvicorn.access - INFO - 127.0.0.1:56358 - "POST /api/refresh HTTP/1.1" 303
+2024-02-03 06:59:31,389 - uvicorn.access - INFO - 127.0.0.1:56358 - "GET /login HTTP/1.1" 200
+2024-02-03 06:59:31,408 - uvicorn.access - INFO - 127.0.0.1:56358 - "GET /login HTTP/1.1" 200
+2024-02-03 06:59:31,445 - uvicorn.access - INFO - 127.0.0.1:56358 - "GET /auth.css HTTP/1.1" 200
+2024-02-03 06:59:31,447 - uvicorn.access - INFO - 127.0.0.1:56361 - "GET /login.js HTTP/1.1" 200
+2024-02-03 06:59:31,448 - uvicorn.access - INFO - 127.0.0.1:56360 - "GET /wide.svg HTTP/1.1" 200
+2024-02-03 06:59:36,676 - uvicorn.error - INFO - Shutting down
+2024-02-03 06:59:36,784 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-02-03 06:59:36,784 - uvicorn.error - INFO - Application shutdown complete.
+2024-02-03 06:59:36,785 - uvicorn.error - INFO - Finished server process [10072]
+2024-02-03 06:59:36,915 - uvicorn.error - INFO - Stopping reloader process [9880]

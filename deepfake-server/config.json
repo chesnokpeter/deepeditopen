@@ -1,0 +1,7 @@
+{
+    "max_memory": 6,
+    "keep_fps": true,
+    "execution_threads": 8,
+    "frame_processors": ["face_swapper", "face_enhancer"],
+    "roop_path": "C:/roop_porable/roop-portable-v1.7 by Neurogen/"
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная - deepedit</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='loader.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='home.css') }}">
+    <script src="{{ url_for('static', path='home-auth.js') }}"></script>
+</head>
+<body class="body" id="body">
+    <div class="panel" id="panel">
+        <div class="tariff">Тариф:</div>
+        <img src="{{ url_for('static', path='wide.svg') }}" alt="">
+        <a href="/lk"><div class="lk"></div></a>
+    </div>
+
+
+    <div class="e" id="e">Внимание, это БЕТА-версия, могут наблюдаться проблемы!</div>
+
+    <div class="root" id="root">    
+        <div class="t" id="material">Материал:</div>
+        <label for="target" class="label" id="targetl">Загрузить видео или фото</label>
+        <input type="file" class="target" name="target" id="target" accept="image/jpg, image/jpeg, image/png">
+        <div id="videoplayer"></div>
+
+        <div class="t">Лицо:</div>
+        <label for="face" class="label" id="facel">Загрузить фото</label>
+        <input type="file" class="face" name="face" id="face" accept="image/png, image/jpeg, image/jpg"/>
+        <div id="photoplayer"></div>
+
+        <div class="by">by2023@deepedit</div>
+
+        <dialog id="dialog">
+            Так как это открытый бета-тест, то мы пока не можем обрабатывать видео дольше 30 минут(
+        </dialog>
+    </div>
+</body>
+
+<script src="{{ url_for('static', path='home-deep.js') }}"></script>
+
+</html>

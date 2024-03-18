@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация - deepedit</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='/auth.css') }}"></linkrel>
+    <link rel="stylesheet" href="{{ url_for('static', path='/spinner.css') }}"></linkrel>
+
+</head>
+<body>
+    <img src="{{ url_for('static', path='/wide.svg') }}" alt="" width="200">
+    <div class="head">Вход</div>
+    <form>
+        <input class="name" required type="text" id="name" name="name" placeholder="Введите имя">
+        <input class="email" required type="text" id="email" name="email" placeholder="Введите почту">
+        <input class="password" required type="password" id="password" name="password" placeholder="Введите пароль">
+        <input class="submit" type="button" value="Зарегистрироваться" id="btn">
+    </form>
+    <div class="error"></div>
+    <div class="pswrd" id="pswrd">Требования для пароля: <br>
+Пароль должен состоять из цифр и латинских букв, а также его длина должна быть больше 8 символов</div>
+    <div class="tag">Уже зерегистрированы? <a href="/login">Войти</a></div>
+    <div class="tag">by2023@deepedit</div>
+</body>
+    <script src="{{ url_for('static', path='signup.js') }}"></script>
+</html>
